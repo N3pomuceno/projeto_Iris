@@ -1,3 +1,0 @@
-dados/iris.data
-dados/iris.zip
-dados/iris.name
