@@ -1,45 +1,25 @@
-usage: git [--version] [--help] [-C <path>] [-c <name>=<value>]
-           [--exec-path[=<path>]] [--html-path] [--man-path] [--info-path]
-           [-p | --paginate | -P | --no-pager] [--no-replace-objects] [--bare]
-           [--git-dir=<path>] [--work-tree=<path>] [--namespace=<name>]
-           <command> [<args>]
+## Projeto Iris
 
-These are common Git commands used in various situations:
+O dataset Iris é um dataset conhecido na área de Machine Learning, sendo um bom começo para práticar métodos de classificação. Tendo em vista a ideia de começar a crescer com meus projetos, esse projeto tem como objetivo praticar a análise exploratória de dados e qualquer engenharia de variáveis e modelagem em cima do dataset.
 
-start a working area (see also: git help tutorial)
-   clone             Clone a repository into a new directory
-   init              Create an empty Git repository or reinitialize an existing one
+Se formos pensar em passos de um planejamento de projeto, o projeto atual envolve muito mais a Aquisição e entendimento dos dados e a modelagem e a Avaliação do modelos.
 
-work on the current change (see also: git help everyday)
-   add               Add file contents to the index
-   mv                Move or rename a file, a directory, or a symlink
-   restore           Restore working tree files
-   rm                Remove files from the working tree and from the index
-   sparse-checkout   Initialize and modify the sparse-checkout
+**Iris**
 
-examine the history and state (see also: git help revisions)
-   bisect            Use binary search to find the commit that introduced a bug
-   diff              Show changes between commits, commit and working tree, etc
-   grep              Print lines matching a pattern
-   log               Show commit logs
-   show              Show various types of objects
-   status            Show the working tree status
+O dataset Iris consta de 150 registros de plantas de 3 diferentes espécies de Iris: Setosa, Versicolour e Virginica. Além disso, contém 4 atributos: Comprimento da Sépala, Largura da Sépal, Comprimento da Pétala e Largura da Pétala. Todas as unidades em centimétros, valores contínuos.
 
-grow, mark and tweak your common history
-   branch            List, create, or delete branches
-   commit            Record changes to the repository
-   merge             Join two or more development histories together
-   rebase            Reapply commits on top of another base tip
-   reset             Reset current HEAD to the specified state
-   switch            Switch branches
-   tag               Create, list, delete or verify a tag object signed with GPG
+Faremos uma análise sobre o dataset para checar a quantidade de cada uma das espécies, e entender as características predominantes de cada uma das espécies.
 
-collaborate (see also: git help workflows)
-   fetch             Download objects and refs from another repository
-   pull              Fetch from and integrate with another repository or a local branch
-   push              Update remote refs along with associated objects
+**Modelagem**
 
-'git help -a' and 'git help -g' list available subcommands and some
-concept guides. See 'git help <command>' or 'git help <concept>'
-to read about a specific subcommand or concept.
-See 'git help git' for an overview of the system.
+Trabalharemos com alguns modelos de classificação, para começar a entender como eles operam. Aqui está a lista:
+
+* KNN (K-Nearest Neighbors)
+* Regressão Logística
+* Random Forest Classifier
+* Support Vector Machine
+* Decision Tree Classifier
+
+Desses modelos faremmos a avaliação de cada um deles e definiremos qual é o melhor para predizer qual é a espécie de um novo registro de Iris que entraria no dataset.
+
+Para checar o que foi feito e o resultado, é possível ver pelo Notebook.
