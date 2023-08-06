@@ -23,3 +23,11 @@ Trabalharemos com alguns modelos de classificação, para começar a entender co
 Desses modelos faremmos a avaliação de cada um deles e definiremos qual é o melhor para predizer qual é a espécie de um novo registro de Iris que entraria no dataset.
 
 Para checar o que foi feito e o resultado, é possível ver pelo Notebook.
+
+
+---
+Referências:
+
+* [Dataset Iris](https://archive.ics.uci.edu/dataset/53/iris)
+* [Kaggle: Boa referência de Machine Learning](https://www.kaggle.com/code/ash316/ml-from-scratch-with-iris)
+* [Kaggle: Segunda fonte de análise de dados de Iris](https://www.kaggle.com/code/anubhavkumargupta/iris-species-data-analysis-prediction-python)
