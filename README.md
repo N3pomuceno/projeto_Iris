@@ -20,7 +20,7 @@ Trabalharemos com alguns modelos de classificação, para começar a entender co
 * Support Vector Machine
 * Decision Tree Classifier
 
-Desses modelos faremmos a avaliação de cada um deles e definiremos qual é o melhor para predizer qual é a espécie de um novo registro de Iris que entraria no dataset.
+Desses modelos faremos a avaliação de cada um deles e definiremos qual é o melhor para predizer qual é a espécie de um novo registro de Iris que entraria no dataset. Não iremos muito a fundo em hiperparâmetros, validações ou explicabilidade. Vamos manter o básico.
 
 Para checar o que foi feito e o resultado, é possível ver pelo Notebook.
 
